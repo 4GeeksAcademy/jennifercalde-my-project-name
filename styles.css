@@ -1,0 +1,33 @@
+body {
+    background: rgb(207, 222, 227);
+    margin: 0%;
+}
+header{
+    background: white;
+    padding: 10px;
+}
+header h1{
+    margin: 0%;
+}
+div.post{
+    background: white;
+    margin-top: 20px;
+}
+div.container{
+    width: 600px;
+    margin: auto;
+}
+div.post img{
+    width: 100%;
+    display: block;
+}
+div.post h2, div.post p{
+    padding: 5px;
+    color: black;
+}
+div.post div:first-child {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    color: gray;
+}
